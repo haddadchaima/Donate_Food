@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryActionBar">#5ac615</color>
+    <color name="colorPrimaryDark">#45a10a</color>
+    <color name="colorAccent">#93c20a</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="black">#212121</color>
+    <color name="btnDonater">#cde6c879</color>
+    <color name="btnAnnoncer">#cd91b643</color>
+    <color name="btnTronsporter">#cceec143</color>
+
+
+
+
+</resources>

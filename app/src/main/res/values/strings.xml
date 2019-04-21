@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Donate Food</string>
+    <string name="title_app">Donate Food</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="Donater">Donater</string>
+    <string name="addDon">Add Don</string>
+    <string name="SaveDonation">Save Donation</string>
+    <string name="hintDescription">what s contains your donation food</string>
+    <string name="hintHealthCondition">Health Condition</string>
+    <string name="hintNumberOfPerson">Number Of Person</string>
+    <string name="hintTimePickup">Time Pick up</string>
+    <string name="hintSetAdresse">Set Adresse</string>
+    <string name="hintTel">Tel</string>
+    <string name="switchCancelAssignement">Cancel Assignement Automatic </string>
+
+    <string-array name="numberPerson">
+        <item>1-2</item>
+        <item>3-4</item>
+        <item>5-6</item>
+        <item>7-8</item>
+        <item>9-10</item>
+
+    </string-array>
+
+    <string name="tab_text_1">Donation</string>
+    <string name="tab_text_2">See Who Needy</string>
+
+
+    <string name="time">__:__</string>
+
+    <string name="Annoncer">Annoncer</string>
+    <string name="Annoncertabtext1">Add Needy</string>
+    <string name="Annoncertabtext2">See Donation</string>
+    <string name="tabSeeNeedy">See Needy</string>
+    <string name="tabDonSelected">Don Selected</string>
+    <string name="saveNeedy">Save Needy</string>
+    <string name="hintDescriptionNeedy">Tell us about the needy</string>
+    <string name="temporary">Temporary</string>
+    <string name="periodically">Periodically</string>
+
+
+    <string name="TransporterVolunteer">Transporter Volunteer</string>
+
+    <!-- Used in NavigationDrawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_save_don">ActivitySaveDon</string>
+    <string name="title_activity_profil_donater">ProfilDonater</string>
+    <string name="title_activity_profile_annoncer">ProfileAnnoncer</string>
+    <string name="title_activity_save_needy">SaveNeedyActivity</string>
+</resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical"
+    style="@style/intentTheme"
+    android:src="@drawable/ic_left_arrow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ediTxtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Title"
+                android:inputType="textPersonName" />
+
+            <ImageButton
+                android:id="@+id/button_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/background_white"
+                android:onClick="takePicture"
+                android:src="@drawable/photo_cameraa" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/ediTxtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintDescription"
+                android:inputType="textLongMessage"
+                android:layout_marginBottom="18dp"/>
+
+            <EditText
+                android:id="@+id/ediTxtHealthCondition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/hintHealthCondition"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="18dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtViewNumberPerson"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/hintNumberOfPerson"
+                    android:layout_marginBottom="18dp"
+                    android:textSize="16sp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerNumberPerson"
+                    android:layout_width="150dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="18dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtViewPickUpTime"
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/hintTimePickup"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="8dp"/>
+
+                <EditText
+                    android:id="@+id/editTxtPickUpTime"
+                    android:layout_width="150dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/edittxt_round"
+                    android:hint="@string/time"
+                    android:textColorHint="@color/background_white"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textColor="@color/background_white"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ediTxtSetAdr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintSetAdresse"
+                android:layout_marginBottom="18dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="36dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_done_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginLeft="290dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/tick" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_cancel_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginLeft="290dp"
+            android:layout_marginEnd="274dp"
+            android:layout_marginRight="274dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_cancel" />
+
+    </RelativeLayout>
+
+</LinearLayout>

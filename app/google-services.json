@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "138174997641",
+    "firebase_url": "https://donate-food-d74b7.firebaseio.com",
+    "project_id": "donate-food-d74b7",
+    "storage_bucket": "donate-food-d74b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138174997641:android:b20a9b82afe691b1",
+        "android_client_info": {
+          "package_name": "com.example.chaima.donatefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138174997641-3dtjnn9bufce1vd2kdaq9j4a3v6o914g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chaima.donatefood",
+            "certificate_hash": "7139023ca84a76d07535f531240041f3d5d58b63"
+          }
+        },
+        {
+          "client_id": "138174997641-c4eaalt973agltukb2u0sjsj6iorgf5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5XbRjFrHYdleTucLAbUCErkmH5NW23-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138174997641-c4eaalt973agltukb2u0sjsj6iorgf5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

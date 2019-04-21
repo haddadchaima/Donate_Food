@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical"
+    style="@style/intentTheme"
+    android:src="@drawable/ic_left_arrow">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="11dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:id="@+id/ediTxtDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:hint="@string/hintDescriptionNeedy"
+                        android:inputType="textLongMessage"
+                        android:layout_marginBottom="18dp"/>
+
+                    <EditText
+                        android:id="@+id/ediTxtHealthCondition"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/hintHealthCondition"
+                        android:inputType="textPersonName"
+                        android:layout_marginBottom="18dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtViewNumberPerson"
+                            android:layout_width="190dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/hintNumberOfPerson"
+                            android:layout_marginBottom="18dp"
+                            android:textSize="16sp"/>
+
+                        <Spinner
+                            android:id="@+id/spinnerNumberPersonN"
+                            android:layout_width="150dp"
+                            android:layout_height="31dp"
+                            android:layout_marginBottom="18dp"
+
+                            />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/ediTxtSetAdr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hintSetAdresse"
+                        android:inputType="textLongMessage"
+                        android:layout_marginBottom="18dp"/>
+                    <EditText
+                        android:id="@+id/ediTxtTel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hintTel"
+                        android:inputType="phone"
+                        android:layout_marginBottom="18dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="2">
+                        <RadioButton
+                            android:id="@+id/rd_temp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:duplicateParentState="false"
+                            android:text="@string/temporary" />
+
+                        <RadioButton
+                            android:id="@+id/rd_perid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/periodically" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="36dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnSaveNeedy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginLeft="290dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/tick" />
+
+    </RelativeLayout>
+
+</LinearLayout>
