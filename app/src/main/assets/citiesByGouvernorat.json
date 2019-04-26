@@ -1,0 +1,1790 @@
+﻿[
+  {
+    "municipality": "tunis",
+    "gouvernorat": "tunis",
+    "population": "638 845"
+  },
+
+  {
+    "municipality": "sfax",
+    "gouvernorat": "sfax",
+    "population": "272 801"
+  },
+
+  {
+    "municipality": "sousse",
+    "gouvernorat": "sousse",
+    "population": "221 530"
+  },
+
+  {
+    "municipality": "kairouan",
+    "gouvernorat": "kairouan",
+    "population": "139 070"
+  },
+
+  {
+    "municipality": "bizerte",
+    "gouvernorat": "bizerte",
+    "population": "136 917"
+  },
+
+  {
+    "municipality": "gabès",
+    "gouvernorat": "gabès",
+    "population": "130 984"
+  },
+
+  {
+    "municipality": "la soukra",
+    "gouvernorat": "l'ariana",
+    "population": "129 693"
+  },
+
+  {
+    "municipality": "ariana",
+    "gouvernorat": "l'ariana",
+    "population": "114 486"
+  },
+
+  {
+    "municipality": "sidi hassine",
+    "gouvernorat": "tunis",
+    "population": "109 690"
+  },
+
+  {
+    "municipality": "el mourouj",
+    "gouvernorat": "ben arous",
+    "population": "104 586"
+  },
+
+  {
+    "municipality": "gafsa",
+    "gouvernorat": "gafsa",
+    "population": "95 242"
+  },
+
+  {
+    "municipality": "raoued",
+    "gouvernorat": "l'ariana",
+    "population": "94 691"
+  },
+
+  {
+    "municipality": "monastir",
+    "gouvernorat": "monastir",
+    "population": "93 306"
+  },
+
+  {
+    "municipality": "la marsa",
+    "gouvernorat": "tunis",
+    "population": "92 987"
+  },
+
+  {
+    "municipality": "ben arous",
+    "gouvernorat": "ben arous",
+    "population": "88 322"
+  },
+
+  {
+    "municipality": "kasserine",
+    "gouvernorat": "kasserine",
+    "population": "83 534"
+  },
+
+  {
+    "municipality": "douar hicher",
+    "gouvernorat": "la manouba",
+    "population": "82 532"
+  },
+
+  {
+    "municipality": "djerba - houmt souk",
+    "gouvernorat": "médenine",
+    "population": "75 904"
+  },
+
+  {
+    "municipality": "le kram",
+    "gouvernorat": "tunis",
+    "population": "74 132"
+  },
+
+  {
+    "municipality": "hammamet",
+    "gouvernorat": "nabeul",
+    "population": "73 236"
+  },
+
+  {
+    "municipality": "zarzis",
+    "gouvernorat": "médenine",
+    "population": "72 611"
+  },
+
+  {
+    "municipality": "le bardo",
+    "gouvernorat": "tunis",
+    "population": "71 961"
+  },
+
+  {
+    "municipality": "médenine",
+    "gouvernorat": "médenine",
+    "population": "71 406"
+  },
+
+  {
+    "municipality": "nabeul",
+    "gouvernorat": "nabeul",
+    "population": "70 437"
+  },
+
+  {
+    "municipality": "tataouine",
+    "gouvernorat": "tataouine",
+    "population": "66 924"
+  },
+
+  {
+    "municipality": "ben gardane",
+    "gouvernorat": "médenine",
+    "population": "66 567"
+  },
+
+  {
+    "municipality": "djerba - midoun",
+    "gouvernorat": "médenine",
+    "population": "63 528"
+  },
+
+  {
+    "municipality": "béja",
+    "gouvernorat": "béja",
+    "population": "62 303"
+  },
+
+  {
+    "municipality": "m'saken",
+    "gouvernorat": "sousse",
+    "population": "60 165"
+  },
+
+  {
+    "municipality": "radès",
+    "gouvernorat": "ben arous",
+    "population": "59 794"
+  },
+
+  {
+    "municipality": "oued ellil",
+    "gouvernorat": "la manouba",
+    "population": "57 851"
+  },
+
+  {
+    "municipality": "moknine",
+    "gouvernorat": "monastir",
+    "population": "57 111"
+  },
+
+  {
+    "municipality": "le kef",
+    "gouvernorat": "kef",
+    "population": "54 690"
+  },
+
+  {
+    "municipality": "menzel bourguiba",
+    "gouvernorat": "bizerte",
+    "population": "54 536"
+  },
+
+  {
+    "municipality": "kalâa kebira",
+    "gouvernorat": "sousse",
+    "population": "53 323"
+  },
+
+  {
+    "municipality": "sakiet ezzit",
+    "gouvernorat": "sfax",
+    "population": "53 243"
+  },
+
+  {
+    "municipality": "mahdia",
+    "gouvernorat": "mahdia",
+    "population": "51 833"
+  },
+
+  {
+    "municipality": "jemmal",
+    "gouvernorat": "monastir",
+    "population": "50 275"
+  },
+
+  {
+    "municipality": "ksar hellal",
+    "gouvernorat": "monastir",
+    "population": "49 376"
+  },
+
+  {
+    "municipality": "sidi bouzid",
+    "gouvernorat": "sidi bouzid",
+    "population": "48 284"
+  },
+
+  {
+    "municipality": "kélibia",
+    "gouvernorat": "nabeul",
+    "population": "46 856"
+  },
+
+  {
+    "municipality": "sakiet eddaïer",
+    "gouvernorat": "sfax",
+    "population": "45 767"
+  },
+
+  {
+    "municipality": "la goulette",
+    "gouvernorat": "tunis",
+    "population": "45 711"
+  },
+
+  {
+    "municipality": "jendouba",
+    "gouvernorat": "jendouba",
+    "population": "45 431"
+  },
+
+  {
+    "municipality": "el aïn",
+    "gouvernorat": "sfax",
+    "population": "43 337"
+  },
+
+  {
+    "municipality": "hammam sousse",
+    "gouvernorat": "sousse",
+    "population": "42 937"
+  },
+
+  {
+    "municipality": "hammam lif",
+    "gouvernorat": "ben arous",
+    "population": "42 518"
+  },
+
+  {
+    "municipality": "dar chaâbane",
+    "gouvernorat": "nabeul",
+    "population": "42 140"
+  },
+
+  {
+    "municipality": "el hamma",
+    "gouvernorat": "gabès",
+    "population": "41 607"
+  },
+
+  {
+    "municipality": "gremda",
+    "gouvernorat": "sfax",
+    "population": "40 858"
+  },
+
+  {
+    "municipality": "bou mhel el-bassatine",
+    "gouvernorat": "ben arous",
+    "population": "40 101"
+  },
+
+  {
+    "municipality": "menzel temime",
+    "gouvernorat": "nabeul",
+    "population": "39 138"
+  },
+
+  {
+    "municipality": "korba",
+    "gouvernorat": "nabeul",
+    "population": "38 902"
+  },
+
+  {
+    "municipality": "métlaoui",
+    "gouvernorat": "gafsa",
+    "population": "38 129"
+  },
+
+  {
+    "municipality": "soliman",
+    "gouvernorat": "nabeul",
+    "population": "37 749"
+  },
+
+  {
+    "municipality": "téboulba",
+    "gouvernorat": "monastir",
+    "population": "37 485"
+  },
+
+  {
+    "municipality": "tozeur",
+    "gouvernorat": "tozeur",
+    "population": "37 365"
+  },
+
+  {
+    "municipality": "ezzahra",
+    "gouvernorat": "ben arous",
+    "population": "34 962"
+  },
+
+  {
+    "municipality": "kalâa seghira",
+    "gouvernorat": "sousse",
+    "population": "34 548"
+  },
+
+  {
+    "municipality": "mateur",
+    "gouvernorat": "bizerte",
+    "population": "34 010"
+  },
+
+  {
+    "municipality": "el ksar",
+    "gouvernorat": "gafsa",
+    "population": "33 729"
+  },
+
+  {
+    "municipality": "thyna",
+    "gouvernorat": "sfax",
+    "population": "33 419"
+  },
+
+  {
+    "municipality": "la manouba",
+    "gouvernorat": "la manouba",
+    "population": "32 029"
+  },
+
+  {
+    "municipality": "hammam chott",
+    "gouvernorat": "ben arous",
+    "population": "31 810"
+  },
+
+  {
+    "municipality": "siliana",
+    "gouvernorat": "siliana",
+    "population": "31 251"
+  },
+
+  {
+    "municipality": "douz",
+    "gouvernorat": "kébili",
+    "population": "30 245"
+  },
+
+  {
+    "municipality": "mornag",
+    "gouvernorat": "ben arous",
+    "population": "30 058"
+  },
+
+  {
+    "municipality": "fériana",
+    "gouvernorat": "kasserine",
+    "population": "29 572"
+  },
+
+  {
+    "municipality": "ksour essef",
+    "gouvernorat": "mahdia",
+    "population": "28 842"
+  },
+
+  {
+    "municipality": "djedeida",
+    "gouvernorat": "la manouba",
+    "population": "28 660"
+  },
+
+  {
+    "municipality": "ras jebel",
+    "gouvernorat": "bizerte",
+    "population": "28 610"
+  },
+
+  {
+    "municipality": "ghannouch",
+    "gouvernorat": "gabès",
+    "population": "28 051"
+  },
+
+  {
+    "municipality": "tebourba",
+    "gouvernorat": "la manouba",
+    "population": "27 545"
+  },
+
+  {
+    "municipality": "akouda",
+    "gouvernorat": "sousse",
+    "population": "27 200"
+  },
+
+  {
+    "municipality": "mégrine",
+    "gouvernorat": "ben arous",
+    "population": "26 964"
+  },
+
+  {
+    "municipality": "den den",
+    "gouvernorat": "la manouba",
+    "population": "26 763"
+  },
+
+  {
+    "municipality": "chihia",
+    "gouvernorat": "sfax",
+    "population": "26 300"
+  },
+
+  {
+    "municipality": "redeyef",
+    "gouvernorat": "gafsa",
+    "population": "25 046"
+  },
+
+  {
+    "municipality": "sbeïtla",
+    "gouvernorat": "kasserine",
+    "population": "24 597"
+  },
+
+  {
+    "municipality": "grombalia",
+    "gouvernorat": "nabeul",
+    "population": "24 299"
+  },
+
+  {
+    "municipality": "djerba - ajim",
+    "gouvernorat": "médenine",
+    "population": "24 294"
+  },
+
+  {
+    "municipality": "el fahs",
+    "gouvernorat": "zaghouan",
+    "population": "23 556"
+  },
+
+  {
+    "municipality": "ouled chamekh",
+    "gouvernorat": "mahdia",
+    "population": "23 020"
+  },
+
+  {
+    "municipality": "menzel jemil",
+    "gouvernorat": "bizerte",
+    "population": "22 238"
+  },
+
+  {
+    "municipality": "chebba",
+    "gouvernorat": "mahdia",
+    "population": "22 227"
+  },
+
+  {
+    "municipality": "takelsa",
+    "gouvernorat": "nabeul",
+    "population": "22 151"
+  },
+
+  {
+    "municipality": "ouerdanine",
+    "gouvernorat": "monastir",
+    "population": "21 814"
+  },
+
+  {
+    "municipality": "nefta",
+    "gouvernorat": "tozeur",
+    "population": "21 654"
+  },
+
+  {
+    "municipality": "medjez el-bab",
+    "gouvernorat": "béja",
+    "population": "21 653"
+  },
+
+  {
+    "municipality": "bou salem",
+    "gouvernorat": "jendouba",
+    "population": "21 638"
+  },
+
+  {
+    "municipality": "béni khiar",
+    "gouvernorat": "nabeul",
+    "population": "21 626"
+  },
+
+  {
+    "municipality": "moularès",
+    "gouvernorat": "gafsa",
+    "population": "21 431"
+  },
+
+  {
+    "municipality": "el jem",
+    "gouvernorat": "mahdia",
+    "population": "21 234"
+  },
+
+  {
+    "municipality": "tinja",
+    "gouvernorat": "bizerte",
+    "population": "21 139"
+  },
+
+  {
+    "municipality": "zaghouan",
+    "gouvernorat": "zaghouan",
+    "population": "20 798"
+  },
+
+  {
+    "municipality": "zaouiet sousse",
+    "gouvernorat": "sousse",
+    "population": "20 681"
+  },
+
+  {
+    "municipality": "kébili",
+    "gouvernorat": "kébili",
+    "population": "20 623"
+  },
+
+  {
+    "municipality": "mornaguia",
+    "gouvernorat": "la manouba",
+    "population": "19 834"
+  },
+
+  {
+    "municipality": "tabarka",
+    "gouvernorat": "jendouba",
+    "population": "19 770"
+  },
+
+  {
+    "municipality": "ghardimaou",
+    "gouvernorat": "jendouba",
+    "population": "19 495"
+  },
+
+  {
+    "municipality": "menzel abderrahmane",
+    "gouvernorat": "bizerte",
+    "population": "19 078"
+  },
+
+  {
+    "municipality": "sahline moôtmar",
+    "gouvernorat": "monastir",
+    "population": "19 013"
+  },
+
+  {
+    "municipality": "souk lahad",
+    "gouvernorat": "kébili",
+    "population": "18 905"
+  },
+
+  {
+    "municipality": "menzel bouzelfa",
+    "gouvernorat": "nabeul",
+    "population": "18 851"
+  },
+
+  {
+    "municipality": "el alia",
+    "gouvernorat": "bizerte",
+    "population": "18 359"
+  },
+
+  {
+    "municipality": "thala",
+    "gouvernorat": "kasserine",
+    "population": "18 230"
+  },
+
+  {
+    "municipality": "kalâat el-andalous",
+    "gouvernorat": "l'ariana",
+    "population": "18 211"
+  },
+
+  {
+    "municipality": "bekalta",
+    "gouvernorat": "monastir",
+    "population": "17 850"
+  },
+
+  {
+    "municipality": "tajerouine",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "17 530"
+  },
+
+  {
+    "municipality": "ezzouhour",
+    "gouvernorat": "sousse",
+    "population": "17 348"
+  },
+
+  {
+    "municipality": "carthage",
+    "gouvernorat": "tunis",
+    "population": "17 010"
+  },
+
+  {
+    "municipality": "zéramdine",
+    "gouvernorat": "monastir",
+    "population": "16 806"
+  },
+
+  {
+    "municipality": "bembla",
+    "gouvernorat": "monastir",
+    "population": "16 078"
+  },
+
+  {
+    "municipality": "mahrès",
+    "gouvernorat": "sfax",
+    "population": "15 878"
+  },
+
+  {
+    "municipality": "kerkennah",
+    "gouvernorat": "sfax",
+    "population": "15 501"
+  },
+
+  {
+    "municipality": "béni khalled",
+    "gouvernorat": "nabeul",
+    "population": "15 463"
+  },
+
+  {
+    "municipality": "chenini nahal",
+    "gouvernorat": "gabès",
+    "population": "14 803"
+  },
+
+  {
+    "municipality": "meknassy",
+    "gouvernorat": "sidi bouzid",
+    "population": "14 773"
+  },
+
+  {
+    "municipality": "bennane-bodheur",
+    "gouvernorat": "monastir",
+    "population": "14 218"
+  },
+
+  {
+    "municipality": "el guettar",
+    "gouvernorat": "gafsa",
+    "population": "14 088"
+  },
+
+  {
+    "municipality": "makthar",
+    "gouvernorat": "siliana",
+    "population": "13 542"
+  },
+
+  {
+    "municipality": "testour",
+    "gouvernorat": "béja",
+    "population": "13 331"
+  },
+
+  {
+    "municipality": "bou arada",
+    "gouvernorat": "siliana",
+    "population": "13 162"
+  },
+
+  {
+    "municipality": "ksibet el-médiouni",
+    "gouvernorat": "monastir",
+    "population": "13 122"
+  },
+
+  {
+    "municipality": "dahmani",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "12 964"
+  },
+
+  {
+    "municipality": "sayada",
+    "gouvernorat": "monastir",
+    "population": "12 962"
+  },
+
+  {
+    "municipality": "menzel hayet",
+    "gouvernorat": "monastir",
+    "population": "12 927"
+  },
+
+  {
+    "municipality": "messaadine",
+    "gouvernorat": "sousse",
+    "population": "12 916"
+  },
+
+  {
+    "municipality": "mdhilla",
+    "gouvernorat": "gafsa",
+    "population": "12 814"
+  },
+
+  {
+    "municipality": "le sers",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "12 108"
+  },
+
+  {
+    "municipality": "bou argoub",
+    "gouvernorat": "nabeul",
+    "population": "11 990"
+  },
+
+  {
+    "municipality": "skhira",
+    "gouvernorat": "sfax",
+    "population": "11 912"
+  },
+
+  {
+    "municipality": "téboursouk",
+    "gouvernorat": "béja",
+    "population": "11 865"
+  },
+
+  {
+    "municipality": "zriba",
+    "gouvernorat": "zaghouan",
+    "population": "11 819"
+  },
+
+  {
+    "municipality": "menzel ennour",
+    "gouvernorat": "monastir",
+    "population": "11 772"
+  },
+
+  {
+    "municipality": "mareth",
+    "gouvernorat": "gabès",
+    "population": "11 678"
+  },
+
+  {
+    "municipality": "ksibet thrayet",
+    "gouvernorat": "sousse",
+    "population": "11 623"
+  },
+
+  {
+    "municipality": "agareb",
+    "gouvernorat": "sfax",
+    "population": "11 513"
+  },
+
+  {
+    "municipality": "regueb",
+    "gouvernorat": "sidi bouzid",
+    "population": "11 420"
+  },
+
+  {
+    "municipality": "sidi thabet",
+    "gouvernorat": "l'ariana",
+    "population": "11 351"
+  },
+
+  {
+    "municipality": "khniss",
+    "gouvernorat": "monastir",
+    "population": "11 229"
+  },
+
+  {
+    "municipality": "enfida",
+    "gouvernorat": "sousse",
+    "population": "10 990"
+  },
+
+  {
+    "municipality": "rejiche",
+    "gouvernorat": "mahdia",
+    "population": "10 806"
+  },
+
+  {
+    "municipality": "métouia",
+    "gouvernorat": "gabès",
+    "population": "10 716"
+  },
+
+  {
+    "municipality": "hajeb el ayoun",
+    "gouvernorat": "kairouan",
+    "population": "10 621"
+  },
+
+  {
+    "municipality": "gaâfour",
+    "gouvernorat": "siliana",
+    "population": "10 399"
+  },
+
+  {
+    "municipality": "sidi bou ali",
+    "gouvernorat": "sousse",
+    "population": "10 282"
+  },
+
+  {
+    "municipality": "oudhref",
+    "gouvernorat": "gabès",
+    "population": "9 932"
+  },
+
+  {
+    "municipality": "bouficha",
+    "gouvernorat": "sousse",
+    "population": "9 931"
+  },
+
+  {
+    "municipality": "metline",
+    "gouvernorat": "bizerte",
+    "population": "9 904"
+  },
+
+  {
+    "municipality": "raf raf",
+    "gouvernorat": "bizerte",
+    "population": "9 850"
+  },
+
+  {
+    "municipality": "jérissa",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "9 807"
+  },
+
+  {
+    "municipality": "aïn draham",
+    "gouvernorat": "jendouba",
+    "population": "9 659"
+  },
+
+  {
+    "municipality": "ghomrassen",
+    "gouvernorat": "tataouine",
+    "population": "9 568"
+  },
+
+  {
+    "municipality": "sened",
+    "gouvernorat": "gafsa",
+    "population": "9 533"
+  },
+
+  {
+    "municipality": "el haouaria",
+    "gouvernorat": "nabeul",
+    "population": "9 508"
+  },
+
+  {
+    "municipality": "tazarka",
+    "gouvernorat": "nabeul",
+    "population": "9 388"
+  },
+
+  {
+    "municipality": "sidi ali ben aoun",
+    "gouvernorat": "sidi bouzid",
+    "population": "9 297"
+  },
+
+  {
+    "municipality": "hammam ghezèze",
+    "gouvernorat": "nabeul",
+    "population": "9 076"
+  },
+
+  {
+    "municipality": "oueslatia",
+    "gouvernorat": "kairouan",
+    "population": "9 006"
+  },
+
+  {
+    "municipality": "beni hassen",
+    "gouvernorat": "monastir",
+    "population": "8 801"
+  },
+
+  {
+    "municipality": "khalidia",
+    "gouvernorat": "ben arous",
+    "population": "8 470"
+  },
+
+  {
+    "municipality": "menzel kamel",
+    "gouvernorat": "monastir",
+    "population": "8 432"
+  },
+
+  {
+    "municipality": "haffouz",
+    "gouvernorat": "kairouan",
+    "population": "8 429"
+  },
+
+  {
+    "municipality": "sidi ameur",
+    "gouvernorat": "monastir",
+    "population": "8 404"
+  },
+
+  {
+    "municipality": "bir mcherga",
+    "gouvernorat": "zaghouan",
+    "population": "8 329"
+  },
+
+  {
+    "municipality": "kalaat senan",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "8 145"
+  },
+
+  {
+    "municipality": "amiret hajjaj",
+    "gouvernorat": "monastir",
+    "population": "8 121"
+  },
+
+  {
+    "municipality": "el maâmoura",
+    "gouvernorat": "nabeul",
+    "population": "8 039"
+  },
+
+  {
+    "municipality": "sbikha",
+    "gouvernorat": "kairouan",
+    "population": "8 036"
+  },
+
+  {
+    "municipality": "bir lahmar",
+    "gouvernorat": "tataouine",
+    "population": "7 955"
+  },
+
+  {
+    "municipality": "el golâa",
+    "gouvernorat": "kébili",
+    "population": "7 912"
+  },
+
+  {
+    "municipality": "degache",
+    "gouvernorat": "tozeur",
+    "population": "7 893"
+  },
+
+  {
+    "municipality": "zaouiet djedidi",
+    "gouvernorat": "nabeul",
+    "population": "7 862"
+  },
+
+  {
+    "municipality": "el krib",
+    "gouvernorat": "siliana",
+    "population": "7 841"
+  },
+
+  {
+    "municipality": "bou hajla",
+    "gouvernorat": "kairouan",
+    "population": "7 828"
+  },
+
+  {
+    "municipality": "el maâgoula",
+    "gouvernorat": "béja",
+    "population": "7 809"
+  },
+
+  {
+    "municipality": "foussana",
+    "gouvernorat": "kasserine",
+    "population": "7 703"
+  },
+
+  {
+    "municipality": "el hencha",
+    "gouvernorat": "sfax",
+    "population": "7 575"
+  },
+
+  {
+    "municipality": "nadhour",
+    "gouvernorat": "zaghouan",
+    "population": "7 567"
+  },
+
+  {
+    "municipality": "nouvelle matmata",
+    "gouvernorat": "gabès",
+    "population": "7 526"
+  },
+
+  {
+    "municipality": "sidi alouane",
+    "gouvernorat": "mahdia",
+    "population": "7 500"
+  },
+
+  {
+    "municipality": "kerker",
+    "gouvernorat": "mahdia",
+    "population": "7 467"
+  },
+
+  {
+    "municipality": "hergla",
+    "gouvernorat": "sousse",
+    "population": "7 419"
+  },
+
+  {
+    "municipality": "el bradâa",
+    "gouvernorat": "mahdia",
+    "population": "7 404"
+  },
+
+  {
+    "municipality": "mezzouna",
+    "gouvernorat": "sidi bouzid",
+    "population": "7 390"
+  },
+
+  {
+    "municipality": "nefza",
+    "gouvernorat": "béja",
+    "population": "7 302"
+  },
+
+  {
+    "municipality": "touza",
+    "gouvernorat": "monastir",
+    "population": "7 236"
+  },
+
+  {
+    "municipality": "jemna",
+    "gouvernorat": "kébili",
+    "population": "7 194"
+  },
+
+  {
+    "municipality": "jebiniana",
+    "gouvernorat": "sfax",
+    "population": "7 190"
+  },
+
+  {
+    "municipality": "menzel bouzaiane",
+    "gouvernorat": "sidi bouzid",
+    "population": "7 113"
+  },
+
+  {
+    "municipality": "somâa",
+    "gouvernorat": "nabeul",
+    "population": "7 017"
+  },
+
+  {
+    "municipality": "thélepte",
+    "gouvernorat": "kasserine",
+    "population": "6 932"
+  },
+
+  {
+    "municipality": "zaouiet kontoch",
+    "gouvernorat": "monastir",
+    "population": "6 713"
+  },
+
+  {
+    "municipality": "melloulèche",
+    "gouvernorat": "mahdia",
+    "population": "6 704"
+  },
+
+  {
+    "municipality": "borj el amri",
+    "gouvernorat": "la manouba",
+    "population": "6 519"
+  },
+
+  {
+    "municipality": "sbiba",
+    "gouvernorat": "kasserine",
+    "population": "6 504"
+  },
+
+  {
+    "municipality": "bir el hafey",
+    "gouvernorat": "sidi bouzid",
+    "population": "6 475"
+  },
+
+  {
+    "municipality": "majel bel abbès",
+    "gouvernorat": "kasserine",
+    "population": "6 471"
+  },
+
+  {
+    "municipality": "el batan",
+    "gouvernorat": "la manouba",
+    "population": "6 453"
+  },
+
+  {
+    "municipality": "el hamma du jérid",
+    "gouvernorat": "tozeur",
+    "population": "6 439"
+  },
+
+  {
+    "municipality": "sakiet sidi youssef",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "6 335"
+  },
+
+  {
+    "municipality": "remada",
+    "gouvernorat": "tataouine",
+    "population": "6 289"
+  },
+
+  {
+    "municipality": "amiret touazra",
+    "gouvernorat": "monastir",
+    "population": "6 261"
+  },
+
+  {
+    "municipality": "bouhjar",
+    "gouvernorat": "monastir",
+    "population": "6 137"
+  },
+
+  {
+    "municipality": "sidi bou saïd",
+    "gouvernorat": "tunis",
+    "population": "5 911"
+  },
+
+  {
+    "municipality": "el ksour",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "5 852"
+  },
+
+  {
+    "municipality": "jilma",
+    "gouvernorat": "sidi bouzid",
+    "population": "5 821"
+  },
+
+  {
+    "municipality": "lamta",
+    "gouvernorat": "monastir",
+    "population": "5 790"
+  },
+
+  {
+    "municipality": "chorbane",
+    "gouvernorat": "mahdia",
+    "population": "5 700"
+  },
+
+  {
+    "municipality": "sejnane",
+    "gouvernorat": "bizerte",
+    "population": "5 645"
+  },
+
+  {
+    "municipality": "zarat",
+    "gouvernorat": "gabès",
+    "population": "5 627"
+  },
+
+  {
+    "municipality": "essouassi",
+    "gouvernorat": "mahdia",
+    "population": "5 381"
+  },
+
+  {
+    "municipality": "ghar el melh",
+    "gouvernorat": "bizerte",
+    "population": "5 345"
+  },
+
+  {
+    "municipality": "djebel oust",
+    "gouvernorat": "zaghouan",
+    "population": "5 325"
+  },
+
+  {
+    "municipality": "amiret el fhoul",
+    "gouvernorat": "monastir",
+    "population": "5 255"
+  },
+
+  {
+    "municipality": "menzel horr",
+    "gouvernorat": "nabeul",
+    "population": "5 243"
+  },
+
+  {
+    "municipality": "amdoun",
+    "gouvernorat": "béja",
+    "population": "5 204"
+  },
+
+  {
+    "municipality": "aousja",
+    "gouvernorat": "bizerte",
+    "population": "5 126"
+  },
+
+  {
+    "municipality": "el ghnada",
+    "gouvernorat": "monastir",
+    "population": "5 100"
+  },
+
+  {
+    "municipality": "azmour",
+    "gouvernorat": "nabeul",
+    "population": "5 054"
+  },
+
+  {
+    "municipality": "nasrallah",
+    "gouvernorat": "kairouan",
+    "population": "5 012"
+  },
+
+  {
+    "municipality": "bargou",
+    "gouvernorat": "siliana",
+    "population": "4 916"
+  },
+
+  {
+    "municipality": "bir ali ben khalifa",
+    "gouvernorat": "sfax",
+    "population": "4 905"
+  },
+
+  {
+    "municipality": "el masdour",
+    "gouvernorat": "monastir",
+    "population": "4 705"
+  },
+
+  {
+    "municipality": "rouhia",
+    "gouvernorat": "siliana",
+    "population": "4 675"
+  },
+
+  {
+    "municipality": "dar allouch",
+    "gouvernorat": "nabeul",
+    "population": "4 558"
+  },
+
+  {
+    "municipality": "sidi bennour",
+    "gouvernorat": "monastir",
+    "population": "4 520"
+  },
+
+  {
+    "municipality": "cherahil",
+    "gouvernorat": "monastir",
+    "population": "4 406"
+  },
+
+  {
+    "municipality": "jedelienne",
+    "gouvernorat": "kasserine",
+    "population": "4 352"
+  },
+
+  {
+    "municipality": "bou merdes",
+    "gouvernorat": "mahdia",
+    "population": "4 338"
+  },
+
+  {
+    "municipality": "dehiba",
+    "gouvernorat": "tataouine",
+    "population": "4 295"
+  },
+
+  {
+    "municipality": "el mida",
+    "gouvernorat": "nabeul",
+    "population": "4 155"
+  },
+
+  {
+    "municipality": "goubellat",
+    "gouvernorat": "béja",
+    "population": "4 128"
+  },
+
+  {
+    "municipality": "menzel mehiri",
+    "gouvernorat": "kairouan",
+    "population": "3 870"
+  },
+
+  {
+    "municipality": "fernana",
+    "gouvernorat": "jendouba",
+    "population": "3 831"
+  },
+
+  {
+    "municipality": "kondar",
+    "gouvernorat": "sousse",
+    "population": "3 804"
+  },
+
+  {
+    "municipality": "menzel fersi",
+    "gouvernorat": "monastir",
+    "population": "3 603"
+  },
+
+  {
+    "municipality": "korbous",
+    "gouvernorat": "nabeul",
+    "population": "3 532"
+  },
+
+  {
+    "municipality": "haïdra",
+    "gouvernorat": "kasserine",
+    "population": "3 451"
+  },
+
+  {
+    "municipality": "cebbala ouled asker",
+    "gouvernorat": "sidi bouzid",
+    "population": "3 361"
+  },
+
+  {
+    "municipality": "nebeur",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "3 299"
+  },
+
+  {
+    "municipality": "el alâa",
+    "gouvernorat": "kairouan",
+    "population": "3 276"
+  },
+
+  {
+    "municipality": "sidi bou rouis",
+    "gouvernorat": "siliana",
+    "population": "3 258"
+  },
+
+  {
+    "municipality": "graïba",
+    "gouvernorat": "sfax",
+    "population": "3 251"
+  },
+
+  {
+    "municipality": "hebira",
+    "gouvernorat": "mahdia",
+    "population": "3 248"
+  },
+
+  {
+    "municipality": "sidi makhlouf",
+    "gouvernorat": "médenine",
+    "population": "3 070"
+  },
+
+  {
+    "municipality": "beni khedache",
+    "gouvernorat": "médenine",
+    "population": "2 930"
+  },
+
+  {
+    "municipality": "chebika",
+    "gouvernorat": "kairouan",
+    "population": "2 921"
+  },
+
+  {
+    "municipality": "el aroussa",
+    "gouvernorat": "siliana",
+    "population": "2 905"
+  },
+
+  {
+    "municipality": "sidi el hani",
+    "gouvernorat": "sousse",
+    "population": "2 706"
+  },
+
+  {
+    "municipality": "kesra",
+    "gouvernorat": "siliana",
+    "population": "2 602"
+  },
+
+  {
+    "municipality": "kalâat khasba",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "2 558"
+  },
+
+  {
+    "municipality": "ouchtata",
+    "gouvernorat": "béja",
+    "population": ""
+  },
+
+  {
+    "municipality": "slouguia",
+    "gouvernorat": "béja",
+    "population": ""
+  },
+
+  {
+    "municipality": "sidi ismail",
+    "gouvernorat": "béja",
+    "population": ""
+  },
+
+  {
+    "municipality": "ouled haffouz",
+    "gouvernorat": "sidi bouzid",
+    "population": "2 494"
+  },
+
+  {
+    "municipality": "oued meliz",
+    "gouvernorat": "jendouba",
+    "population": "2 388"
+  },
+
+  {
+    "municipality": "tamerza",
+    "gouvernorat": "tozeur",
+    "population": "2 334"
+  },
+
+  {
+    "municipality": "menzel chaker",
+    "gouvernorat": "sfax",
+    "population": "2 278"
+  },
+
+  {
+    "municipality": "touiref",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "2 178"
+  },
+
+  {
+    "municipality": "matmata",
+    "gouvernorat": "gabès",
+    "population": "1 847"
+  },
+
+  {
+    "municipality": "menzel salem",
+    "gouvernorat": "gouvernorat du kef",
+    "population": "1 824"
+  },
+
+  {
+    "municipality": "aïn djeloula",
+    "gouvernorat": "kairouan",
+    "population": "1 757"
+  },
+
+  {
+    "municipality": "echrarda",
+    "gouvernorat": "kairouan",
+    "population": "1 705"
+  },
+
+  {
+    "municipality": "beni m'tir",
+    "gouvernorat": "jendouba",
+    "population": "784"
+  },
+
+  {
+    "municipality": " aachech",
+    "gouvernorat": "sfax",
+    "population": "-"
+  },
+
+  {
+    "municipality": " al ahouaz-el assouda",
+    "gouvernorat": "sidi bouzid",
+    "population": "-[3]"
+  },
+  {
+    "municipality": " belkhir",
+    "gouvernorat": "gafsa",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " bouchemma",
+    "gouvernorat": "gabès",
+    "population": "-[3]"
+  },
+  {
+    "municipality": " el amra",
+    "gouvernorat": "sfax",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " el ayoun",
+    "gouvernorat": "kasserine",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " ennasr",
+    "gouvernorat": "sfax",
+    "population": "-"
+  },
+
+  {
+    "municipality": " ezzouhour",
+    "gouvernorat": "kasserine",
+    "population": "-[5]"
+  },
+  {
+    "municipality": " essaïda",
+    "gouvernorat": "sidi bouzid",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " faouar",
+    "gouvernorat": "kébili",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " fouchana",
+    "gouvernorat": "ben arous",
+    "population": "-[3]"
+  },
+  {
+    "municipality": " ghezala",
+    "gouvernorat": "bizerte",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " hadjeb",
+    "gouvernorat": "sfax",
+    "population": "-"
+  },
+
+  {
+    "municipality": " hassi el ferid",
+    "gouvernorat": "kasserine",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " hazeg ellouza",
+    "gouvernorat": "sfax",
+    "population": "-"
+  },
+
+  {
+    "municipality": " hazoua",
+    "gouvernorat": "tozeur",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " hkaima",
+    "gouvernorat": "mahdia",
+    "population": "-"
+  },
+
+  {
+    "municipality": " joumine",
+    "gouvernorat": "bizerte",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " lela",
+    "gouvernorat": "gafsa",
+    "population": "-[3]"
+  },
+  {
+    "municipality": " menzel el habib",
+    "gouvernorat": "gabès",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " mohamedia",
+    "gouvernorat": "ben arous",
+    "population": "-"
+  },
+
+  {
+    "municipality": " mnihla",
+    "gouvernorat": "l'ariana",
+    "population": "-[3]"
+  },
+  {
+    "municipality": " nadhour sidi ali ben abed",
+    "gouvernorat": "sfax",
+    "population": "-"
+  },
+
+  {
+    "municipality": " ouabed khazanet",
+    "gouvernorat": "sfax",
+    "population": "-"
+  },
+
+  {
+    "municipality": " rjim maatoug",
+    "gouvernorat": "kébili",
+    "population": "-[3]"
+  },
+  {
+    "municipality": " saouaf",
+    "gouvernorat": "zaghouan",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " sidi aïch",
+    "gouvernorat": "gafsa",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " sidi zid",
+    "gouvernorat": "mahdia",
+    "population": "-"
+  },
+
+  {
+    "municipality": " smâr",
+    "gouvernorat": "tataouine",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " souk jedid",
+    "gouvernorat": "sidi bouzid",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " teboulbou",
+    "gouvernorat": "gabès",
+    "population": "-[3]"
+  },
+  {
+    "municipality": " thibar",
+    "gouvernorat": "béja",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " tlelsa",
+    "gouvernorat": "mahdia",
+    "population": "-"
+  },
+
+  {
+    "municipality": " utique",
+    "gouvernorat": "bizerte",
+    "population": "-[4]"
+  },
+  {
+    "municipality": " zarzis nord",
+    "gouvernorat": "médenine",
+    "population": "-[3]"
+  },
+  {
+    "municipality": " zelba",
+    "gouvernorat": "mahdia",
+    "population": "-"
+  }
+
+
+]

@@ -125,21 +125,30 @@ public class UpdateNeedyActivity extends AppCompatActivity implements AdapterVie
         String nbPerson = getIntent().getExtras().getString("NumberOfPerson");
         String place = getIntent().getExtras().getString("Place");
         String tel = getIntent().getExtras().getString("Tel");
-        String perd = getIntent().getExtras().getString("Perid");
-        String tempo = getIntent().getExtras().getString("Temp");
+        Boolean perd = getIntent().getExtras().getBoolean("Perid");
+        Boolean tempo = getIntent().getExtras().getBoolean("Temp");
+
+        ArrayAdapter adapterNbr = (ArrayAdapter) spNumberPerson.getAdapter() ;
+        int positionItem = adapterNbr.getPosition(nbPerson);
 
         editTextDescription.setText(desc);
         editTextHealthCondition.setText(healthCond);
-        //spNumberPerson.setSelection();
+        spNumberPerson.setSelection(positionItem);
         editTextAdr.setText(place);
         editTextTel.setText(tel);
+        if(perd == true){
+            rdPeriod.setChecked(true);
+        }
+        if(tempo == true){
+            rdTemp.setChecked(true);
+        }
 
 
     }
 
     public void updateNeedy(String desc, String health, String nbPerson, String place, String tel, boolean period, boolean temp){
 
-        int phone = Integer.parseInt(tel) ;
+       // int phone = Integer.parseInt(tel) ;
 
         if(!TextUtils.isEmpty(desc)) {
             if((rdTemp.isChecked() == true) || (rdPeriod.isChecked() == true)){

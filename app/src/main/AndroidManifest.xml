@@ -47,10 +47,16 @@
             android:name=".Annoncer.UpdateNeedyActivity"
             android:theme="@style/intentTheme" />
         <activity
+            android:name=".TransporterVolunteer.SavePreferences"
+            android:label="@string/savePerf"
+            android:theme="@style/intentTheme" />
+        <activity
             android:name=".Donater.UpdateDonActivity"
             android:theme="@style/intentTheme" />
         <activity android:name=".TransporterVolunteer.ProfileTransporter" />
-        <activity android:name=".SelectDonActivity"></activity>
+        <activity android:name=".SelectDonActivity" />
+        <activity android:name=".CitiesListView" />
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>

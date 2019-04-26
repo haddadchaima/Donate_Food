@@ -42,6 +42,14 @@
 
 
     <string name="TransporterVolunteer">Transporter Volunteer</string>
+    <string name="savePerf">Save Your Preferences</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="everyTime">Every Time</string>
+    <string name="everyGouver">Every Gouvernorat</string>
+    <string name="everyCity">Every City</string>
+    <string name="chooseCity">Choose City</string>
+    <string name="chooseGouver">Choose Gouvernorat</string>
 
     <!-- Used in NavigationDrawer -->
     <string name="navigation_drawer_open">Open navigation drawer</string>

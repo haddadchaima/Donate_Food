@@ -53,6 +53,7 @@ public class NeedyFragment extends Fragment implements INeedy {
     RecyclerView needyRecyclerView;
 
     ArrayList<Needy> needyList = new ArrayList<>();
+    NeedyService needySv = new NeedyService();
 
 
     protected OnFragmentInteractionListener mListener;
@@ -102,6 +103,7 @@ public class NeedyFragment extends Fragment implements INeedy {
         databaseReference = FirebaseDatabase.getInstance().getReference("Needy");
         needyRecyclerView = (RecyclerView) rootView.findViewById(R.id.recycleNeedy);
 
+
         LinearLayoutManager recyclerLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
         needyRecyclerView.setLayoutManager(recyclerLayoutManager);
 
@@ -110,6 +112,7 @@ public class NeedyFragment extends Fragment implements INeedy {
 
 
         needyRecyclerViewAdapter = new NeedyRecyclerViewAdapter(displayNeedy(), getActivity());
+       // needyRecyclerViewAdapter.notifyDataSetChanged();
         needyRecyclerView.setAdapter(needyRecyclerViewAdapter);
 
 
@@ -142,10 +145,25 @@ public class NeedyFragment extends Fragment implements INeedy {
     }
 
     @Override
+    public void notifyDataNeedy() {
+
+        needyList = new ArrayList<Needy>();
+
+          //needySv.getNeedyFromFirebase(needyList);
+        //Log.d("onDataChangeNeedy", "onDataChangeNeedy: " + needyList);
+
+    }
+
     public ArrayList<Needy> displayNeedy() {
 
         needyList = new ArrayList<Needy>();
+
+        //needySv.getNeedyFromFirebase(needyList);
+        //Log.d("onDataChangeNeedy", "onDataChangeNeedy: " + needyList);
         getNeedyFromFirebase();
+//        needyRecyclerViewAdapter.notifyDataSetChanged();
+
+
         return needyList ;
     }
 
@@ -181,7 +199,7 @@ public class NeedyFragment extends Fragment implements INeedy {
 
                 }
                 needyList.add(dataSnapshot.getValue(Needy.class));
-                needyRecyclerViewAdapter.notifyDataSetChanged();
+                //needyRecyclerViewAdapter.notifyDataSetChanged();
                 // while (donList.size())
                 //recyclerViewAdapter.notifyItemInserted(donList.);
             }

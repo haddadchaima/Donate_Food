@@ -1,5 +1,20 @@
 package com.example.chaima.donatefood.Annoncer;
 
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.ArrayList;
+
+import static android.content.ContentValues.TAG;
+
 public class Needy {
 
     private String idNeedy ;
@@ -10,6 +25,8 @@ public class Needy {
     private boolean temporary ;
     private boolean periodically ;
     private String tel ;
+
+
 
     public Needy(String idNeedy, String desc, String adrNeedy, String healthCondition, String numberOfPerson, boolean temporary, boolean periodically, String tel) {
         this.idNeedy = idNeedy;
@@ -99,4 +116,6 @@ public class Needy {
     public void setTel(String tel) {
         this.tel = tel;
     }
+
+
 }

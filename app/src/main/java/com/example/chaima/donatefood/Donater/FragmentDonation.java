@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -122,7 +123,8 @@ public class FragmentDonation extends Fragment {
         donRecyclerView.addItemDecoration(dividerItemDecoration);
 
 
-        recyclerViewAdapter = new DonRecyclerViewAdapter(getDon(), getActivity());
+        FragmentManager fragmentNeedy = getActivity().getSupportFragmentManager();
+        recyclerViewAdapter = new DonRecyclerViewAdapter(fragmentNeedy, getDon(), getActivity());
         donRecyclerView.setAdapter(recyclerViewAdapter);
 
 
@@ -136,6 +138,7 @@ public class FragmentDonation extends Fragment {
 
         donList = new ArrayList<Don>();
         getDonFromFirebase();
+
         return donList;
     }
 
@@ -205,12 +208,13 @@ public class FragmentDonation extends Fragment {
         databaseReference.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-                for (DataSnapshot donSnapshot : dataSnapshot.getChildren()) {
+               /* for (DataSnapshot donSnapshot : dataSnapshot.getChildren()) {
                     //   donList.add(donSnapshot.getValue(Don.class));
                     Log.d("onDataChange", "onDataChange: " + donSnapshot.toString());
 
-                }
+                }*/
                 donList.add(dataSnapshot.getValue(Don.class));
+
                 recyclerViewAdapter.notifyDataSetChanged();
                // while (donList.size())
                 //recyclerViewAdapter.notifyItemInserted(donList.);

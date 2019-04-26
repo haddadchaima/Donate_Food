@@ -7,6 +7,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.PopupMenu;
@@ -44,10 +46,11 @@ import java.util.List;
 import static android.content.ContentValues.TAG;
 
 class DonRecyclerViewAdapter extends
-        RecyclerView.Adapter<DonRecyclerViewAdapter.ViewHolder> implements AdapterView.OnItemSelectedListener {
+        RecyclerView.Adapter<DonRecyclerViewAdapter.ViewHolder> implements AdapterView.OnItemSelectedListener{
 
     private static final int MAX_WIDTH = 150;
     private static final int MAX_HEIGHT = 150;
+    private final FragmentManager mFragment;
     private List<Don> donList;
     private Context context;
     private Don objectDon ;
@@ -57,9 +60,14 @@ class DonRecyclerViewAdapter extends
 
     DatabaseReference databaseReference ;
 
-    public DonRecyclerViewAdapter(List<Don> list, Context ctx) {
+
+
+   
+
+    public DonRecyclerViewAdapter(FragmentManager fragment, List<Don> list, Context ctx) {
         donList = list;
         context = ctx;
+        mFragment  = fragment;
     }
     @Override
     public int getItemCount() {
@@ -165,34 +173,20 @@ class DonRecyclerViewAdapter extends
             }
         });
 
-     holder.btnAffect.setOnClickListener(new View.OnClickListener() {
+     /*holder.btnAffect.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
 
-             final Dialog dialog = new Dialog(context);
+            /* FragmentManager fragmentNeedy = getSupportFragmentManager();
+             FragmentTransaction fragmentTransaction = fragmentNeedy.beginTransaction();
 
-             dialog.setContentView(R.layout.activity_select_needy); //layout for dialog
-             dialog.setTitle("Select Needy");
+             SelectDonFragment fragment = new SelectDonFragment();
+             fragmentTransaction.add(R.id.FrameLayout_select_needy, fragment);
+             fragmentTransaction.commit();
 
-             //dialog.setCancelable(false); //none-dismiss when touching outside Dialog
-
-
-            /*public ArrayList<Needy> displayNeedy(){
-
-                  needyList = new ArrayList<Needy>();
-                 getNeedyFromFirebase();
-                 return needyList ;
-             }*/
-
-
-
-
-             dialog.show();
          }
 
-
-
-     });
+     }); */
 
 
 
@@ -278,6 +272,7 @@ class DonRecyclerViewAdapter extends
             }
         });
 */
+       // mListener.onItemClicked(donList);
     }
 
     @Override
@@ -290,7 +285,9 @@ class DonRecyclerViewAdapter extends
 
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+
+
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener  {
         TextView txtViewTitle, txtViewDesc, txtViewHealthCondition, txtViewNumberPerson, txtViewTimePickUp, txtViewAdr ,textViewDateCurrent, TxtViewTimeCurrent;
 
         ImageView imgDon ;
@@ -306,14 +303,23 @@ class DonRecyclerViewAdapter extends
             txtViewTimePickUp =(TextView) view.findViewById(R.id.txtTimePickUp);
             txtViewAdr= (TextView) view.findViewById(R.id.txtPlace);
             imgDon = (ImageView) view.findViewById(R.id.imgDon);
-           /* btnDelete = (ImageButton) view.findViewById(R.id.btnDelete);
-            btnEdit = (ImageButton) view.findViewById(R.id.btnEdit);*/
             btnMenu = (ImageButton) view.findViewById(R.id.btn_menu);
             btnAffect = (ImageButton) view.findViewById(R.id.btn_affect);
 
-
+            btnAffect.setOnClickListener(this);
         }
+
+        @Override
+        public void onClick(View v) {
+            mFragment.beginTransaction().add(R.id.FrameLayout_select_needy,new SelectDonFragment()).commit();
+        }
+
+       /* @Override
+        public void onClick(View view){
+            mFragment.beginTransaction().replace(R.id.containerRow,new MyFragment()).commit();
+        }*/
     }
+
   /*private void editClassifiedAd(String adId){
         FragmentManager fm = ((ClassifiedsActivity)context).getSupportFragmentManager();
 

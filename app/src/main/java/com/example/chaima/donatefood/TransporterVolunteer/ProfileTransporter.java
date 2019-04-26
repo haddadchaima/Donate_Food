@@ -17,6 +17,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.chaima.donatefood.Annoncer.SaveNeedyActivity;
 import com.example.chaima.donatefood.Donater.DonationFragmentPD;
 import com.example.chaima.donatefood.Donater.NeedyFragmentPD;
 import com.example.chaima.donatefood.Donater.ProfileDonater;
@@ -93,11 +94,13 @@ public class ProfileTransporter extends AppCompatActivity implements NavigationV
         int id = item.getItemId();
 
         switch (id){
-            case R.id.activity_main_drawer_news :
+            case R.id.drawer_home :
                 break;
-            case R.id.activity_main_drawer_profile:
+            case R.id.drawer_profile:
                 break;
-            case R.id.activity_main_drawer_settings:
+            case R.id.drawer_preferences:
+                Intent intentPerf = new Intent(this, SavePreferences.class);
+                startActivity(intentPerf);
                 break;
             default:
                 break;
