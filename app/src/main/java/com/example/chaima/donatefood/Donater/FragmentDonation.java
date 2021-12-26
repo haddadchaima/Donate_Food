@@ -205,7 +205,7 @@ public class FragmentDonation extends Fragment {
 
     protected void getDonFromFirebase() {
 
-        databaseReference.addChildEventListener(new ChildEventListener() {
+        databaseReference.orderByChild("timePickup").addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                /* for (DataSnapshot donSnapshot : dataSnapshot.getChildren()) {

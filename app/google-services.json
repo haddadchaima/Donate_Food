@@ -23,30 +23,31 @@
           }
         },
         {
+          "client_id": "138174997641-6rq4kol37sjamsoiqg4m97gcgvh7qst8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chaima.donatefood",
+            "certificate_hash": "a99af6b24b747559a570f4521f3067298778b729"
+          }
+        },
+        {
           "client_id": "138174997641-c4eaalt973agltukb2u0sjsj6iorgf5p.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB5XbRjFrHYdleTucLAbUCErkmH5NW23-I"
+          "current_key": "AIzaSyDNRLwQZtiG8qEO_tJBP5ysjaP5GqmlEpc"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "138174997641-c4eaalt973agltukb2u0sjsj6iorgf5p.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

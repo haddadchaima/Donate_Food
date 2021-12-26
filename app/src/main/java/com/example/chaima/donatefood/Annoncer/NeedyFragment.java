@@ -156,13 +156,12 @@ public class NeedyFragment extends Fragment implements INeedy {
 
     public ArrayList<Needy> displayNeedy() {
 
-        needyList = new ArrayList<Needy>();
+     //   needyList = new ArrayList<Needy>();
 
         //needySv.getNeedyFromFirebase(needyList);
         //Log.d("onDataChangeNeedy", "onDataChangeNeedy: " + needyList);
         getNeedyFromFirebase();
 //        needyRecyclerViewAdapter.notifyDataSetChanged();
-
 
         return needyList ;
     }
@@ -199,7 +198,7 @@ public class NeedyFragment extends Fragment implements INeedy {
 
                 }
                 needyList.add(dataSnapshot.getValue(Needy.class));
-                //needyRecyclerViewAdapter.notifyDataSetChanged();
+                needyRecyclerViewAdapter.notifyDataSetChanged();
                 // while (donList.size())
                 //recyclerViewAdapter.notifyItemInserted(donList.);
             }
@@ -211,7 +210,7 @@ public class NeedyFragment extends Fragment implements INeedy {
 
                     needyList.add(dataSnapshot.getValue(Needy.class));
 
-                    Toast.makeText(getActivity(), "Success " + dataSnapshot.getValue(Needy.class), Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getActivity(), "Success " + dataSnapshot.getValue(Needy.class), Toast.LENGTH_SHORT).show();
 
               //  }
 

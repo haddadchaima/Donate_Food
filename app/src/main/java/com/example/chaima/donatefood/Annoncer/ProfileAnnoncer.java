@@ -17,7 +17,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.chaima.donatefood.ChooseProfil;
 import com.example.chaima.donatefood.R;
+import com.example.chaima.donatefood.TransporterVolunteer.SavePreferences;
 
 public class ProfileAnnoncer extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -87,21 +89,26 @@ public class ProfileAnnoncer extends AppCompatActivity implements NavigationView
     public boolean onNavigationItemSelected(MenuItem item) {
 
         // 4 - Handle Navigation Item Click
-       /* int id = item.getItemId();
+        int id = item.getItemId();
 
         switch (id){
-            case R.id.activity_main_drawer_news :
+            case R.id.drawer_home :
+
                 break;
-            case R.id.activity_main_drawer_profile:
+            case R.id.drawer_profile:
+                Intent intentProf = new Intent(this, ChooseProfil.class);
+                startActivity(intentProf);
                 break;
-            case R.id.activity_main_drawer_settings:
+            case R.id.drawer_preferences:
+                Intent intentPerf = new Intent(this, SavePreferences.class);
+                startActivity(intentPerf);
                 break;
             default:
                 break;
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.activity_main_drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);*/
+        drawer.closeDrawer(GravityCompat.START);
         return false;
 
 

@@ -346,7 +346,7 @@ public class ActivitySaveDon extends AppCompatActivity implements AdapterView.On
     public String encodeBitmapAndSaveToFirebase(Bitmap bitmap) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, baos);
-       String imageEncoded = Base64.encodeToString(baos.toByteArray(), Base64.DEFAULT);
+        String imageEncoded = Base64.encodeToString(baos.toByteArray(), Base64.DEFAULT);
                // reference.child("imageUrl").setValue(imageEncoded);
         return imageEncoded ;
     }

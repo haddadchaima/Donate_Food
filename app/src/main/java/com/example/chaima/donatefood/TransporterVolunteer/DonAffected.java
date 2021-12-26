@@ -1,38 +1,32 @@
 package com.example.chaima.donatefood.TransporterVolunteer;
 
+import com.example.chaima.donatefood.Annoncer.Needy;
+import com.example.chaima.donatefood.Donater.Don;
+
 public class DonAffected {
 
-    private String idDonAffected ;
-    private String idDon ;
-    private String idNeedy ;
+    //private String idDonAffected ;
+    private Don idDon ;
+    private Needy idNeedy ;
 
-    public DonAffected(String idDonAffected, String idDon, String idNeedy) {
-        this.idDonAffected = idDonAffected;
+    public DonAffected(Don idDon, Needy idNeedy) {
         this.idDon = idDon;
         this.idNeedy = idNeedy;
     }
 
-    public String getIdDonAffected() {
-        return idDonAffected;
-    }
-
-    public void setIdDonAffected(String idDonAffected) {
-        this.idDonAffected = idDonAffected;
-    }
-
-    public String getIdDon() {
+    public Don getIdDon() {
         return idDon;
     }
 
-    public void setIdDon(String idDon) {
+    public void setIdDon(Don idDon) {
         this.idDon = idDon;
     }
 
-    public String getIdNeedy() {
+    public Needy getIdNeedy() {
         return idNeedy;
     }
 
-    public void setIdNeedy(String idNeedy) {
+    public void setIdNeedy(Needy idNeedy) {
         this.idNeedy = idNeedy;
     }
 }

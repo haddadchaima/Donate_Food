@@ -48,6 +48,14 @@ public class Don {
         this.imageUrl = imageUrlDon;
     }
 
+    public Don(String idDon, String titleDon, String descriptionDon, String healthConditionDon) {
+        this.idDon = idDon;
+        this.title = titleDon;
+        this.description = descriptionDon;
+        this.healthCondition = healthConditionDon;
+
+    }
+
     public Don() {
     }
 
@@ -131,4 +139,6 @@ public class Don {
         reference = FirebaseDatabase.getInstance().getReference("Don");
        // reference.child(idDon).setValue(titleDon, descriptionDon,  healthConditionDon,  adresseDon,  numberOfPersonDon, timePickupDon,cancelAssingment,imageUrlDon);
     }
+
+
 }

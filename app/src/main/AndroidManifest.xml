@@ -57,6 +57,9 @@
         <activity android:name=".SelectDonActivity" />
         <activity android:name=".CitiesListView" />
         <activity android:name=".Main2Activity"></activity>
+
+
+
     </application>
 
 </manifest>

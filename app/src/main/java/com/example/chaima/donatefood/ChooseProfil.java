@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.example.chaima.donatefood.Donater.ProfileDonater;
 import com.example.chaima.donatefood.TransporterVolunteer.ProfileTransporter;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class ChooseProfil extends AppCompatActivity {
 
@@ -17,6 +18,7 @@ public class ChooseProfil extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_profil);
+//        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
 
         btnDonater = (Button) findViewById(R.id.btnDonater);
         btnAnnoncer = (Button) findViewById(R.id.btnAnnoncer);

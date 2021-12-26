@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
@@ -31,6 +32,7 @@ import android.widget.Toast;
 import com.example.chaima.donatefood.Annoncer.Needy;
 import com.example.chaima.donatefood.Annoncer.NeedyRecyclerViewAdapter;
 import com.example.chaima.donatefood.Annoncer.UpdateNeedyActivity;
+import com.example.chaima.donatefood.ChooseProfil;
 import com.example.chaima.donatefood.R;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -105,73 +107,75 @@ class DonRecyclerViewAdapter extends
         /*Bitmap image = decodeFromFirebaseBase64(don.getImageUrl());
         holder.imgDon.setImageBitmap(image);*/
 
-        if (don.getImageUrl()!=null&&!don.getImageUrl().contains("http")) {
+        if (don.getImageUrl() != null && !don.getImageUrl().contains("http")) {
             try {
                 Bitmap image = decodeFromFirebaseBase64(don.getImageUrl());
                 holder.imgDon.setImageBitmap(image);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-       } else {
+        } else {
             // This block of code should already exist, we're just moving it to the 'else' statement:
             Picasso.with(context)
                     .load(don.getImageUrl())
                     .fit().centerCrop()
                     .into(holder.imgDon);
         }
+        //if (context.getApplicationContext().equals(ProfileDonater.class)){
+           // holder.btnMenu.show();
+            holder.btnMenu.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-        holder.btnMenu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+                    //creating a popup menu
+                    PopupMenu popup = new PopupMenu(context, holder.btnMenu);
+                    //inflating menu from xml resource
+                    popup.inflate(R.menu.menu_list);
+                    //adding click listener
+                    popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                        @Override
+                        public boolean onMenuItemClick(MenuItem item) {
+                            switch (item.getItemId()) {
+                                case R.id.menu_edit:
+                                    //handle menu1 click
 
-                //creating a popup menu
-                PopupMenu popup = new PopupMenu(context, holder.btnMenu);
-                //inflating menu from xml resource
-                popup.inflate(R.menu.menu_list);
-                //adding click listener
-                popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item) {
-                        switch (item.getItemId()) {
-                            case R.id.menu_edit:
-                                //handle menu1 click
+                                    Intent intentEditDon = new Intent(context, UpdateDonActivity.class);
+                                    intentEditDon.putExtra("id", don.getIdDon());
+                                    intentEditDon.putExtra("Tilte", don.getTitle());
+                                    intentEditDon.putExtra("Description", don.getDescription());
+                                    intentEditDon.putExtra("HealthConditon", don.getHealthCondition());
+                                    intentEditDon.putExtra("NumberOfPerson", don.getNumberOfPerson());
+                                    intentEditDon.putExtra("Place", don.getAdresse());
+                                    intentEditDon.putExtra("Time", don.getTimePickup());
+                                    intentEditDon.putExtra("Img", don.getImageUrl());
 
-                                Intent intentEditDon = new Intent(context, UpdateDonActivity.class);
-                                intentEditDon.putExtra("id", don.getIdDon());
-                                intentEditDon.putExtra("Tilte", don.getTitle());
-                                intentEditDon.putExtra("Description", don.getDescription());
-                                intentEditDon.putExtra("HealthConditon", don.getHealthCondition());
-                                intentEditDon.putExtra("NumberOfPerson", don.getNumberOfPerson());
-                                intentEditDon.putExtra("Place", don.getAdresse());
-                                intentEditDon.putExtra("Time", don.getTimePickup());
-                                intentEditDon.putExtra("Img", don.getImageUrl());
+                                    context.startActivity(intentEditDon);
 
-                                context.startActivity(intentEditDon);
+                                    break;
+                                case R.id.menu_delete:
+                                    //  deleteClassifiedAd(classifiedAd.getAdId(), itemPos);
+                                    // Get the clicked item label
+                                    String idDon = donList.get(position).getIdDon();
 
-                                break;
-                            case R.id.menu_delete:
-                                //  deleteClassifiedAd(classifiedAd.getAdId(), itemPos);
-                                // Get the clicked item label
-                                String idDon = donList.get(position).getIdDon();
+                                    // Remove the item on remove/button click
+                                    donList.remove(position);
+                                    notifyItemRemoved(position);
+                                    notifyItemRangeChanged(position, donList.size());
 
-                                // Remove the item on remove/button click
-                                donList.remove(position);
-                                notifyItemRemoved(position);
-                                notifyItemRangeChanged(position,donList.size());
+                                    databaseReference.child(idDon).removeValue();
+                                    Toast.makeText(context, "Deleted", Toast.LENGTH_SHORT).show();
+                                    break;
 
-                                databaseReference.child(idDon).removeValue();
-                                Toast.makeText(context,"Deleted",Toast.LENGTH_SHORT).show();
-                                break;
-
+                            }
+                            return false;
                         }
-                        return false;
-                    }
-                });
-                //displaying the popup
-                popup.show();
+                    });
+                    //displaying the popup
+                    popup.show();
 
-            }
-        });
+                }
+            });
+    //}
 
      /*holder.btnAffect.setOnClickListener(new View.OnClickListener() {
          @Override

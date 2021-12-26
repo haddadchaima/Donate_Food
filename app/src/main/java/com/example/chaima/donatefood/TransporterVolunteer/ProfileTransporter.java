@@ -17,7 +17,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.chaima.donatefood.Annoncer.NeedyFragmentPA;
 import com.example.chaima.donatefood.Annoncer.SaveNeedyActivity;
+import com.example.chaima.donatefood.ChooseProfil;
 import com.example.chaima.donatefood.Donater.DonationFragmentPD;
 import com.example.chaima.donatefood.Donater.NeedyFragmentPD;
 import com.example.chaima.donatefood.Donater.ProfileDonater;
@@ -74,6 +76,11 @@ public class ProfileTransporter extends AppCompatActivity implements NavigationV
 
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
+
+        DonAffectedService affect = new DonAffectedService();
+       // affect.affectDonToNeedy();
+        affect.getDon();
+
     }
 
     @Override
@@ -95,8 +102,11 @@ public class ProfileTransporter extends AppCompatActivity implements NavigationV
 
         switch (id){
             case R.id.drawer_home :
+
                 break;
             case R.id.drawer_profile:
+                Intent intentProf = new Intent(this, ChooseProfil.class);
+                startActivity(intentProf);
                 break;
             case R.id.drawer_preferences:
                 Intent intentPerf = new Intent(this, SavePreferences.class);
@@ -166,15 +176,16 @@ public class ProfileTransporter extends AppCompatActivity implements NavigationV
                 case 0: NeedyFragmentPT f1 = new NeedyFragmentPT();
                     return f1 ;
 
+
                 case 1: DonationFragmentPT f2 = new DonationFragmentPT();
                     return f2 ;
 
-               /* case 2: DonationFragmentPT f3 = new DonationFragmentPT();
-                    return f3 ;*/
-
+                case 2: NeedyFragmentPT f3 = new NeedyFragmentPT();
+                    return f3 ;
 
                 default:
                     return null ;
+
             }
 
 
